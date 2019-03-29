@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Price"
+       android:id="@+id/etPrice"
+       android:inputType="text"
+       />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rate"
+        android:id="@+id/etRate"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Time"
+        android:id="@+id/etTime"
+        android:inputType="text"
+        />
+
+    <Button
+
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcualte"
+
+        />
+
+    <TextView
+
+        android:id="@+id/tvOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="20sp"
+        />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Square Root"
+        android:textSize="20sp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Number"
+        android:id="@+id/etNumber"
+        android:inputType="number"
+        />
+
+    <Button
+
+        android:id="@+id/btnSquare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Square"
+
+        />
+
+ <TextView
+
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Area of Circle"
+     android:textSize="20sp"
+     />
+
+
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:hint="Radius"
+     android:id="@+id/etArea"
+     android:inputType="text"
+     />
+
+ <Button
+
+     android:id="@+id/btnArea"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Area"
+
+     />
+
+</LinearLayout>
